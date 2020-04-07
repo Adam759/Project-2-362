@@ -1,0 +1,16 @@
+body {
+
+}
+
+/*Tablet Upscaling*/
+@media only screen and (min-width: 768px) {
+
+}
+/*Desktop Upscaling*/
+@media only screen and (min-width: 1024px) {
+
+}
+/*Large Screen Upscaling*/
+@media only screen and (min-width: 1920px) {
+
+}
