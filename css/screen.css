@@ -7,6 +7,8 @@
 body {
   font-family: "Refrigerator Deluxe", Arial, sans-serif;
   font-size: 8em;
+  color: #f0f0f0;
+  background-color: #2B2B2B;
 }
 
 .test {
