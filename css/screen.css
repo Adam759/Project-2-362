@@ -1,6 +1,6 @@
 @font-face {
     font-family: Refrigerator Deluxe;
-    src: url("fonts/Refrigerator Deluxe.otf") format("opentype");
+    src: url("../fonts/Refrigerator Deluxe Bold.otf") format("opentype");
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -12,9 +12,8 @@ body {
   margin: 0 auto;
   line-height: 1.4;
 }
-
 h1 {
-  font-size: 2.2vw;
+  font-size: 5vw;
   color: #43717A;
 }
 h2 {
@@ -26,13 +25,14 @@ h3 {
   color: #518F9B;
 }
 p {
-
+  font-size: 2vw;
+  line-height: 1.5;
 }
-
 h1, h2, h3 {
-  line-height: 3;
+  line-height: 1;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
 }
-
 .i1{
   margin-left:0;
 }
@@ -42,11 +42,9 @@ h1, h2, h3 {
 .i3{
   margin-left:2vw;
 }
-
 .italic {
   font-style: italic;
 }
-
 .banner {
   font-family: "Refrigerator Deluxe", Arial, sans-serif;
   float: right;
@@ -74,6 +72,7 @@ h1, h2, h3 {
   height: 6vh;
   font-size: 2vw;
   color: #51608A;
+  text-decoration: none;
   text-align: left;
 }
 .navbutton:hover {
@@ -104,7 +103,18 @@ h1, h2, h3 {
 }
 /*Desktop Upscaling*/
 @media only screen and (min-width: 1024px) {
-
+  h1 {
+    font-size: 2.2vw;
+  }
+  h2 {
+    font-size: 1.5vw;
+  }
+  h3 {
+    font-size: 1.2vw;
+  }
+  p {
+    font-size: 1vw;
+  }
 }
 /*Large Screen Upscaling*/
 @media only screen and (min-width: 1920px) {
