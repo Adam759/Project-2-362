@@ -6,14 +6,14 @@
 
 body {
   font-family: "Refrigerator Deluxe", Arial, sans-serif;
-  font-size: 8em;
+  font-size: 5em;
   color: #f0f0f0;
   background-color: #2B2B2B;
 }
-
-.test {
-  font-family: Roboto, Arial, sans-serif;
+.header_logo {
+  width: 20vw;
 }
+
 /*Tablet Upscaling*/
 @media only screen and (min-width: 768px) {
 
