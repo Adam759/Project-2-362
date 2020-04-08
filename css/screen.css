@@ -1,5 +1,11 @@
-body {
+@font-face {
+    font-family: Refrigerator Deluxe;
+    src: url("fonts/Refrigerator Deluxe.otf") format("opentype");
+}
 
+body {
+  font-family: "Refrigerator Deluxe", Arial, sans-serif;
+  font-size: 8em;
 }
 
 /*Tablet Upscaling*/
