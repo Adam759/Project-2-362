@@ -2,12 +2,16 @@
     font-family: Refrigerator Deluxe;
     src: url("fonts/Refrigerator Deluxe.otf") format("opentype");
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   font-family: "Refrigerator Deluxe", Arial, sans-serif;
   font-size: 8em;
 }
 
+.test {
+  font-family: Roboto, Arial, sans-serif;
+}
 /*Tablet Upscaling*/
 @media only screen and (min-width: 768px) {
 
