@@ -106,14 +106,12 @@ a:hover {
 .content {
   position: relative;
   float: right;
-  -background-color: black;
   width: 72vw;
   margin-top: 6vh;
   margin-right: 4vw;
   padding-bottom: 10vh;
 }
 .signup_containter {
-  -background-color: black;
   width: 60vw;
   height: 30vh;
   padding: 1vw;
