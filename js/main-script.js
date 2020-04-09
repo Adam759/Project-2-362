@@ -13,7 +13,7 @@ $( document ).ready(function() {
   $(".nav_signup").click(function() {
     document.location.href = "signup.html";
   });
-  
+
 
   function alert_message(head, mes){
     $(".alert_box h1").text(head);
