@@ -28,6 +28,15 @@ p {
   font-size: 2vw;
   line-height: 1.5;
 }
+ul {
+  list-style-type: disc;
+  font-size: 2vw;
+  line-height: 1.5;
+}
+li {
+  font-size: 2vw;
+  line-height: 1.5;
+}
 h1, h2, h3 {
   line-height: 1;
   padding-bottom: 2vh;
@@ -112,7 +121,7 @@ h1, h2, h3 {
   h3 {
     font-size: 1.2vw;
   }
-  p {
+  p, li {
     font-size: 1vw;
   }
 }
