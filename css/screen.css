@@ -55,6 +55,12 @@ h1, h2, h3 {
 .italic {
   font-style: italic;
 }
+a {
+  color: #519866;
+}
+a:hover {
+  color: #125225;
+}
 .banner {
   font-family: "Refrigerator Deluxe", Arial, sans-serif;
   float: right;
