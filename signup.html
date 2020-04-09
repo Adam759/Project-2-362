@@ -11,6 +11,17 @@
   <script src="js/main-script.js" async></script>
 </head>
 <body>
+
+  <div class="alert_container">
+     <div class="alert_box">
+       <h1>Error</h1>
+       <p class="alert_text">Please Check Your Input</p>
+       <div class="alert_ack">
+         <p>OK</p>
+       </div>
+     </div>
+   </div>
+
   <!--NAV/LOGO SECTION-->
   <div class="banner">
     <span class="banner_text">The International Society for Universal Dialogue</span>
@@ -43,15 +54,15 @@
       <div class="signup_containter">
         <form id="signup_form" method="GET" action=#null>
           <div id="name" class="entry_container">
-            <input class="entry" id="namein" type="text" placeholder="First and Last Name" name="name_field">
+            <input class="entry" id="namein" type="text" placeholder="&nbsp;First and Last Name" name="name_field">
           </div>
 
           <div id="email" class="entry_container">
-            <input class="entry" id="emailin" type="email" placeholder="Email" name="email_field">
+            <input class="entry" id="emailin" type="email" placeholder="&nbsp;Email" name="email_field">
           </div>
 
           <div id="interest" class="entry_container">
-            <textarea class="entry" id="interestin" placeholder="What interested you to look into us?" name="interest_field"></textarea>
+            <textarea class="entry" id="interestin" placeholder="&nbsp;What interested you to look into us?" name="interest_field"></textarea>
           </div>
 
         </form>
@@ -59,7 +70,7 @@
         <div id="submit">
           <button class="sub_button" id="sub_button" type="submit" form="info_form">Sign Up</button>
         </div>
-        
+
       </div>
     </div>
   </div>
