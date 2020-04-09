@@ -102,9 +102,9 @@ h1, h2, h3 {
   float: right;
   -background-color: black;
   width: 72vw;
-  height: 70vh;
   margin-top: 6vh;
   margin-right: 4vw;
+  padding-bottom: 10vh;
 }
 .signup_containter {
   -background-color: black;
