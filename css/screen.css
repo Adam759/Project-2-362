@@ -60,11 +60,15 @@ a:hover {
   color: #125225;
 }
 .banner {
-  font-family: "Refrigerator Deluxe", Arial, sans-serif;
-  float: right;
-  margin-right: 12vw;
+  float: left;
+  margin-left: 24vw;
   margin-top: 6vw;
+}
+.banner_text {
+  font-family: "Refrigerator Deluxe", Arial, sans-serif;
   font-size: 4vw;
+  font-weight: bold;
+  color: white;
 }
 .logonav_cont {
   font-family: "Refrigerator Deluxe", Arial, sans-serif;
