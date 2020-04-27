@@ -89,21 +89,28 @@ nav {
 .navbutton {
   height: 6vh;
   font-size: 2vw;
-  color: #51608A;
   text-decoration: none;
   text-align: left;
 }
 .navbutton:hover {
   background-color: #6A7491;
-  color: #131721;
   cursor: pointer;
+}
+.navbutton a:hover {
+  color: #131721;
 }
 .current {
   background-color: #38466C;
+}
+.current a {
   color: #131721;
 }
-.nb_text {
+nav a {
+  display: block;
   vertical-align: middle;
+  font-size: 2vw;
+  color: #51608A;
+  text-decoration: none;
 }
 .content {
   position: relative;

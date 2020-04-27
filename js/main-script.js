@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 
+/* Javascript Navigation Depractated
   //Navigation Logic and Listeners
   $(".nav_home").click(function() {
     document.location.href = "index.html";
@@ -13,7 +14,7 @@ $( document ).ready(function() {
   $(".nav_signup").click(function() {
     document.location.href = "signup.html";
   });
-
+*/
 
   function alert_message(head, mes){
     $(".alert_box h1").text(head);
