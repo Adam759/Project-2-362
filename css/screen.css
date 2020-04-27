@@ -27,12 +27,12 @@ p {
   font-size: 2vw;
   line-height: 1.5;
 }
-ul {
+.abus_cont ul {
   list-style-type: disc;
   font-size: 2vw;
   margin-left: 1.3vw;
 }
-li {
+.abus_cont li {
   line-height: 1.5;
 }
 h1, h2, h3 {
